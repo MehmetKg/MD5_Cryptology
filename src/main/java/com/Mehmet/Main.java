@@ -4,7 +4,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class Main {
     public static void main(String[] args) {
-        String text = "Merhaba Dünya";
+        String text = "Şifrelemeye ilk adım";
         String hashedText = hashPassword(text);
         System.out.println("MD5 Hash: " + hashedText);
     }
